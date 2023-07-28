@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header{
+    width: 100%;
+    background-color: deepskyblue;
+    padding: 3%;
+}
+footer {
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 5%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section > div{
+    background-color: rgb(111, 152, 240);
+    height: 40vh;
+    width: 80vw;
+    margin: 20px;
+}
+
+@media only screen and (min-width:600px) {
+    /*For tablets*/
+    .col-s1 {width: 40vw;}
+    .col-s2 {width:40vw;}
+    .col-s3 {width: 40vw;}
+
+    header{background-color: rgb(31, 199, 101);}
+    section > div {background-color: rgb(62, 154, 90);}
+    footer{background-color: rgb(53, 183, 53);}
+
+}
+
+@media only screen and (min-width:768px) {
+    /*For Desktop*/
+    .col-s1 {width: 25vw;}
+    .col-s2 {width:25vw;}
+    .col-s3 {width: 25vw;}
+
+    header {background-color: rgb(167, 166, 166);}
+    section > div {background-color: dimgrey;}
+    footer{background-color: rgb(92, 100, 100);}
+}
+
