@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -24,9 +24,10 @@ section{
 
 section > div{
     background-color: rgb(111, 152, 240);
-    height: 40vh;
+    height: 55vh;
     width: 80vw;
     margin: 20px;
+    text-align:center;
 }
 
 @media only screen and (min-width:600px) {
